@@ -16,6 +16,8 @@
 		303E0D681CED93450053A0FD /* ElearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E0D671CED93450053A0FD /* ElearningUITests.m */; };
 		3064ED131CF6E5AE0088709D /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3064ED121CF6E5AE0088709D /* checked.png */; };
 		3064ED151CF6E5B60088709D /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3064ED141CF6E5B60088709D /* unchecked.png */; };
+		307C50111D06A06500182659 /* ParseJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C50101D06A06500182659 /* ParseJson.m */; };
+		307C50141D06A61600182659 /* APIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C50131D06A61600182659 /* APIHandler.m */; };
 		309A3CEC1CF43AA4004F7F98 /* noavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 309A3CEB1CF43AA4004F7F98 /* noavatar.png */; };
 		30B7ABEF1D05777E00553861 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B7ABEE1D05777E00553861 /* User.m */; };
 		30B7ABF21D0577BF00553861 /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B7ABF11D0577BF00553861 /* UserInput.m */; };
@@ -28,6 +30,7 @@
 		30EBAC841CFBED730027A635 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EBAC7F1CFBED730027A635 /* email.png */; };
 		30EBAC851CFBED730027A635 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EBAC801CFBED730027A635 /* password.png */; };
 		30EBAC861CFBED730027A635 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EBAC811CFBED730027A635 /* profile.png */; };
+		3E96262BE41F7211BD2949A1 /* libPods-Elearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C977CAC515C4794B5DD03 /* libPods-Elearning.a */; };
 		EF3D8F951CEEBA5D00AF117D /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D8F941CEEBA5D00AF117D /* CategoriesViewController.m */; };
 		EF3D8FAB1CEEBAA100AF117D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D8F981CEEBAA100AF117D /* HomeViewController.m */; };
 		EF3D8FAC1CEEBAA100AF117D /* LessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D8F9B1CEEBAA100AF117D /* LessonViewController.m */; };
@@ -57,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EE0EDFD473CA772268A3926 /* Pods-Elearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elearning/Pods-Elearning.release.xcconfig"; sourceTree = "<group>"; };
 		303E0D3F1CED93450053A0FD /* Elearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303E0D431CED93450053A0FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		303E0D451CED93450053A0FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +77,10 @@
 		303E0D691CED93450053A0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3064ED121CF6E5AE0088709D /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = Resources/Images/checked.png; sourceTree = "<group>"; };
 		3064ED141CF6E5B60088709D /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = Resources/Images/unchecked.png; sourceTree = "<group>"; };
+		307C500F1D06A06500182659 /* ParseJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParseJson.h; path = Network/ParseJson.h; sourceTree = "<group>"; };
+		307C50101D06A06500182659 /* ParseJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParseJson.m; path = Network/ParseJson.m; sourceTree = "<group>"; };
+		307C50121D06A61600182659 /* APIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIHandler.h; path = Network/APIHandler.h; sourceTree = "<group>"; };
+		307C50131D06A61600182659 /* APIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIHandler.m; path = Network/APIHandler.m; sourceTree = "<group>"; };
 		309A3CEB1CF43AA4004F7F98 /* noavatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noavatar.png; path = Resources/Images/noavatar.png; sourceTree = "<group>"; };
 		30B7ABED1D05777E00553861 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
 		30B7ABEE1D05777E00553861 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
@@ -91,6 +99,8 @@
 		30EBAC7F1CFBED730027A635 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = Resources/Images/email.png; sourceTree = "<group>"; };
 		30EBAC801CFBED730027A635 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = Resources/Images/password.png; sourceTree = "<group>"; };
 		30EBAC811CFBED730027A635 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = Resources/Images/profile.png; sourceTree = "<group>"; };
+		41821CF3523A47E7C594EF27 /* Pods-Elearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elearning/Pods-Elearning.debug.xcconfig"; sourceTree = "<group>"; };
+		925C977CAC515C4794B5DD03 /* libPods-Elearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D8F931CEEBA5D00AF117D /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
 		EF3D8F941CEEBA5D00AF117D /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
 		EF3D8F971CEEBAA100AF117D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -115,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E96262BE41F7211BD2949A1 /* libPods-Elearning.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +146,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE76E660CFBF274A2A58686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41821CF3523A47E7C594EF27 /* Pods-Elearning.debug.xcconfig */,
+				1EE0EDFD473CA772268A3926 /* Pods-Elearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		303E0D361CED93450053A0FD = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +163,7 @@
 				303E0D661CED93450053A0FD /* ElearningUITests */,
 				EFF77A681CEDA59100EAFAD5 /* Frameworks */,
 				303E0D401CED93450053A0FD /* Products */,
+				0FE76E660CFBF274A2A58686 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,6 +226,10 @@
 		3064ECFB1CF684B90088709D /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				307C500F1D06A06500182659 /* ParseJson.h */,
+				307C50101D06A06500182659 /* ParseJson.m */,
+				307C50121D06A61600182659 /* APIHandler.h */,
+				307C50131D06A61600182659 /* APIHandler.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -346,6 +371,7 @@
 		EFF77A681CEDA59100EAFAD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				925C977CAC515C4794B5DD03 /* libPods-Elearning.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -399,9 +425,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 303E0D6C1CED93450053A0FD /* Build configuration list for PBXNativeTarget "Elearning" */;
 			buildPhases = (
+				8D5503106A3C9756F89359F9 /* 📦 Check Pods Manifest.lock */,
 				303E0D3B1CED93450053A0FD /* Sources */,
 				303E0D3C1CED93450053A0FD /* Frameworks */,
 				303E0D3D1CED93450053A0FD /* Resources */,
+				7CB374BDFC396722DB5E5F46 /* 📦 Embed Pods Frameworks */,
+				524BD9D641F531CC14F0C5EB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -527,6 +556,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		524BD9D641F531CC14F0C5EB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elearning/Pods-Elearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB374BDFC396722DB5E5F46 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elearning/Pods-Elearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5503106A3C9756F89359F9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		303E0D3B1CED93450053A0FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -542,9 +619,11 @@
 				30D0B8661CFD32E00051F40A /* NSString+Base64.m in Sources */,
 				EF3D8FAE1CEEBAA100AF117D /* RegisterViewController.m in Sources */,
 				303E0D441CED93450053A0FD /* main.m in Sources */,
+				307C50141D06A61600182659 /* APIHandler.m in Sources */,
 				EF3D8FAB1CEEBAA100AF117D /* HomeViewController.m in Sources */,
 				EF3D8FAF1CEEBAA100AF117D /* ResultViewController.m in Sources */,
 				30D0B8691CFD32FC0051F40A /* NSData+CommonCrypto.m in Sources */,
+				307C50111D06A06500182659 /* ParseJson.m in Sources */,
 				EF3D8FB11CEEBAA100AF117D /* WordsListViewController.m in Sources */,
 				30D0B86F1CFD333A0051F40A /* AESCrypt.m in Sources */,
 				EF3D8FB01CEEBAA100AF117D /* UpdateProfileViewController.m in Sources */,
@@ -686,6 +765,7 @@
 		};
 		303E0D6D1CED93450053A0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41821CF3523A47E7C594EF27 /* Pods-Elearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -701,6 +781,7 @@
 		};
 		303E0D6E1CED93450053A0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE0EDFD473CA772268A3926 /* Pods-Elearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
