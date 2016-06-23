@@ -148,12 +148,13 @@
     if ([message isEqualToString:UPDATE_PROFILE_SUCCESS]) {
         User *user = [StoreData getUser];
         [[SDImageCache sharedImageCache] removeImageForKey:user.avatar fromDisk:YES];
+        [[NSNotificationCenter defaultCenter] postNotificationName:KEY_SHOW_USER object:nil];
     }
 }
 
 #pragma mark - Open other screen
 - (void)goHome {
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

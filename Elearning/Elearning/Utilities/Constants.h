@@ -73,4 +73,6 @@ extern NSInteger const MIN_LENGTH_PASSWORD;
 #pragma mark - KeyChain Keys
 extern NSString *const KEYCHAIN_KEY_SERVICE;
 extern NSString *const KEY_POPVIEW;
+extern NSString *const KEY_SHOW_USER;
+
 @end

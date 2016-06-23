@@ -33,9 +33,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Profile";
+    [self showUser];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showUser) name:KEY_SHOW_USER object:nil];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
+- (void) showUser {
     self.loadingView = [[LoadingView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.view addSubview:self.loadingView];
     HomeManager *homeManager = [[HomeManager alloc] init];
@@ -111,7 +113,9 @@
 - (void)goUpdateProfile {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"UpdateProfileViewController"];
-    [self.navigationController pushViewController:vc animated:YES];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    nav.modalPresentationStyle = UIModalPresentationFormSheet;
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)goWords {
